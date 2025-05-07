@@ -1,6 +1,7 @@
 * {
   color: #000;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
 }
 
 .beagle-text {
@@ -9,6 +10,13 @@
 }
 .section-trivia {
   padding-left: 0px;
+}
+
+h1, a{
+  text-decoration: underline;
+}
+strong {
+  font-style: italic;
 }
 
 ol,
@@ -21,4 +29,7 @@ li {
 ol {
   padding-left: 0;
   margin-left: 0;
+}
+img{
+  margin-bottom: 15pxas;
 }
